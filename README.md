@@ -10,21 +10,24 @@ As cotações devem ser recebidas a partir do nosso simulador de cotações que 
 
 ## Layout
 
-Acesse o layer completo (Desk e Mobile) no Figma [neste link](https://www.figma.com/file/WWD46DsIYNhoipr3WSqFPb/TESTE-TORO-FRONT-END?node-id=0%3A1)
-
+### Versão Desktop:
 ![Layout Desktop](screenshots/desktop.png)
+
+### Versão Mobile:
+![Layout Mobile](screenshots/mobile.png)
 
 
 ## Requisitos
 
 - O layout produzido deve ser o mais proximo possível do disponibilizado e o styleguide deve ser respeitado
 - Utilizar algum gerencimento de estado (terceiro ou próprio) para armazenar os dados obtidos do websocket
-- Responsividade (versão mobile inclusa no Figma)
+- Responsividade
 - Os cards não devem piscar (entrar e sair) na tela quando os ativos sofrerem alterações de preço que determine alta ou baixa
 - O projeto deve ser publicado em um repositório público no github.com, bitbucket.org ou gitlab.com
 - Testes automatizados
 - README com instruções de como instalar as dependências do projeto, de como rodar a aplicação e como rodar os testes automatizados
 - Deve ser desenvolvido em Javascript com ou sem Typescript
+- Se for desenvolvimento em Angular ser versão 16+
 
 ### Bônus
 
